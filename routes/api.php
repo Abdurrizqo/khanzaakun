@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/all-user', [AkunController::class, 'allUser']);
 Route::get('/select/{user}', [AkunController::class, 'selectUser']);
 Route::post('/copy-akses', [AkunController::class, 'copyAkses']);
+Route::post('/copy-banyak-akses', [AkunController::class, 'copyBuatBanyak']);
